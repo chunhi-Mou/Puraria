@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: NoDataSoil
   m_EditorClassIdentifier: 
   dirtType: 0
-  isUnlocked: 0
-  sprite: {fileID: 0}
+  isUnlocked: 1
+  sprite: {fileID: 21300000, guid: 910a0f310f3ebd34d85f62ec052a5c75, type: 3}
