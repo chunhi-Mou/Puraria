@@ -6,3 +6,4 @@ Nội dung Branch:
   + Hiện tại đang cho mặc định là đất tốt (chỉ hiện ra khi Runtime)
   + Trong Editor là hiện khung Hex Trắng
 - Ngoài ra các tâm đã được lưu trong mảng 2 chiều `vertices` để sau cài đặt thử A*
+- Dữ liệu class Tile tổng (base của đất) **chưa hoàn thiện** và **chưa** thử cài đặt chức năng đặc biệt cho từng loại đất
