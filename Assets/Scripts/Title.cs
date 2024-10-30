@@ -15,6 +15,6 @@ public class Tile : MonoBehaviour {
         this.SetSprite();
     }
     protected virtual void SetSprite() {
-        this.spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        this.spriteRenderer = GetComponent<SpriteRenderer>();
     }
 }
