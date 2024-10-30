@@ -40,6 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2192821050354144102}
+  - component: {fileID: 6811904828497131902}
   - component: {fileID: 8702925817792704170}
   m_Layer: 0
   m_Name: Sprite
@@ -63,6 +64,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7003863470810159807}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6811904828497131902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3822429845317697183}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aade6b10560277a49b411682eb9089a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileData: {fileID: 11400000, guid: 894c301d79ad8b64084080cb67b8c4e8, type: 2}
 --- !u!212 &8702925817792704170
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -104,7 +118,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 93071c2114184de40969693fd205188d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 910a0f310f3ebd34d85f62ec052a5c75, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -124,7 +138,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7003863470810159807}
-  - component: {fileID: 6391189275877030010}
   m_Layer: 0
   m_Name: "\u0110\u1EA5t"
   m_TagString: Untagged
@@ -149,16 +162,3 @@ Transform:
   - {fileID: 2192821050354144102}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6391189275877030010
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5232354656908469970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aade6b10560277a49b411682eb9089a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileData: {fileID: 11400000, guid: 894c301d79ad8b64084080cb67b8c4e8, type: 2}
