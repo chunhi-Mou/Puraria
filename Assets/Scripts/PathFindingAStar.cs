@@ -30,8 +30,6 @@ public class PathFindingAStar : MonoBehaviour
     public Node currentNode;
 
     [Header("Time")]
-    public float timeStepShowResult;
-    public float timeStepFindSlow;
     float timeFind;
     #endregion
     public void StartFinding(Node startNode, Node endNode) {
